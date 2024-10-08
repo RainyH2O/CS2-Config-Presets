@@ -16,7 +16,7 @@ if %errorlevel% neq 0 (
     echo Error: failed to copy cfg files.
     exit /b 1
 )
-copy custom\*.cfg "%CS2_HOME%\cfg\" /Y >nul 2>&1
+xcopy custom\* "%CS2_HOME%\cfg\" /E /I /Y >nul 2>&1
 if %errorlevel% neq 0 (
     echo Error: failed to copy custom cfg files.
     exit /b 1
