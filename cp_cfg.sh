@@ -12,11 +12,11 @@ cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null || {
     echo "Error: failed to change directory."
     exit 1
 }
-cp -f ./*.cfg "$CS2_HOME/cfg/" || {
+cp -rf ./*.cfg "$CS2_HOME/cfg/" || {
     echo "Error: failed to copy cfg files."
     exit 1
 }
-cp -f ./custom/*.cfg "$CS2_HOME/cfg/" || {
+cp -rf ./custom/* "$CS2_HOME/cfg/" || {
     echo "Error: failed to copy custom cfg files."
     exit 1
 }
