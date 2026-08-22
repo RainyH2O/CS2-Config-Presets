@@ -1,0 +1,9 @@
+"Tokens"
+{
+	"CUSTOM_RADIAL_PREV"			"◀ 上一页"
+	"CUSTOM_RADIAL_NEXT"			"下一页 ▶"
+	"CUSTOM_RADIAL_EMPTY"			"未分配"
+	"CUSTOM_RADIAL_PAGE1"			"第1页"
+	"CUSTOM_RADIAL_PAGE2"			"第2页"
+	"CUSTOM_RADIAL_PAGE3"			"第3页"
+}
